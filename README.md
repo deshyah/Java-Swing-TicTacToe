@@ -26,8 +26,9 @@ The design is built around clear responsibilities:
 | **WinChecker** | **Helper/Logic** | Encapsulate the complex logic required to check for three-in-a-row. |
 
 ## 📐 UML Class Diagram
-The complete UML Class Diagram illustrates the crucial relationships, such as the `TicTacToeGame` having an association with the `TicTacToeBoard` and the `TicTacToeGUI` managing a collection of `TicTacToeButton` components. This diagram serves as the blueprint for the robust implementation.
-<img width="1710" height="1107" alt="lab7buml" src="https://github.com/user-attachments/assets/e6051f20-a1ac-4224-92bd-2a04fad72d24" />
+The complete UML Class Diagram illustrates the object-oriented architecture and relationships across the application—such as `TicTacToeGame` maintaining associations with `TicTacToeBoard` and `Player`, while `TicTacToeFrame` manages the visual layout and `TicTacToeButton` grid components.
+
+<img width="1710" height="1107" alt="Tic-Tac-Toe UML Class Diagram" src="https://github.com/user-attachments/assets/e6051f20-a1ac-4224-92bd-2a04fad72d24" />
 
 ## 🧪 Implementation Note
 The final coding stage will involve implementing these classes and creating **JUnit tests** for the core logic classes (`TicTacToeBoard`, `WinChecker`). This **test-first Agile approach** ensures that the logic works correctly before integrating it with the GUI.
