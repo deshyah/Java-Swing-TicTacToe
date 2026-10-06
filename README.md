@@ -1,7 +1,7 @@
-# OOP Tic Tac Toe Re-Engineering: Decoupling Game Logic
+# Java-Swing-TicTacToe
 
 ## 💡 Overview
-This project, **Part B: OOP Tic Tac Toe**, focuses on practicing the software engineering process by completely redesigning the existing Tic Tac Toe application. The goal is to move away from monolithic code (where game logic was mixed with GUI actions) towards a clean, highly decoupled Object-Oriented structure.
+A desktop-based Tic-Tac-Toe game built with Java Swing that demonstrates modular object-oriented UI design. The project separates game state evaluation, player turn management, and win/tie condition verification from the graphical user interface to ensure clean event handling and state presentation.
 
 The final design cleanly separates the **Model** (Game Logic and Board State) from the **View** (GUI) and **Controller** (Game Flow). 
 
