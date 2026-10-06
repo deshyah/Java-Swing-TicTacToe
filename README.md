@@ -28,7 +28,7 @@ The design is built around clear responsibilities:
 ## 📐 UML Class Diagram
 The complete UML Class Diagram illustrates the object-oriented architecture and relationships across the application—such as `TicTacToeGame` maintaining associations with `TicTacToeBoard` and `Player`, while `TicTacToeFrame` manages the visual layout and `TicTacToeButton` grid components.
 
-<img width="1710" height="1107" alt="Tic-Tac-Toe UML Class Diagram" src="https://github.com/user-attachments/assets/e6051f20-a1ac-4224-92bd-2a04fad72d24" />
+<img width="861" height="795" alt="525263576-e6051f20-a1ac-4224-92bd-2a04fad72d24" src="https://github.com/user-attachments/assets/2cfd90c6-83be-4d8e-b322-0db336de230f" />
 
 ## 🧪 Implementation Note
 The final coding stage will involve implementing these classes and creating **JUnit tests** for the core logic classes (`TicTacToeBoard`, `WinChecker`). This **test-first Agile approach** ensures that the logic works correctly before integrating it with the GUI.
